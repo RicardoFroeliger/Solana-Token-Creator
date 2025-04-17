@@ -1,0 +1,23 @@
+{
+  "name": "solana-token-creator",
+  "version": "1.0.0",
+  "description": "A script to create a token using 1 command: (npm run create) with the set configuration in .env",
+  "main": "index.js",
+  "scripts": {
+    "create": "node index.js"
+  },
+  "author": "Ricardo",
+  "license": "MIT",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.5.2",
+    "@solana/spl-token": "^0.2.0",
+    "@solana/web3.js": "^1.36.0",
+    "base58-js": "^3.0.2",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "to-boolean": "^1.0.0"
+  },
+  "resolutions": {
+    "@solana/spl-token": "^0.2.0"
+  }
+}
